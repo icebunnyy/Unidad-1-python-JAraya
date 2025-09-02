@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Dispositivo de mujer</title>
+    </head>
+    <body>
+        <h1>Dispositivo {{ dispositivo.nombre }}</h1>
+        <p>Categoria: {{ dispositivo.categoria }}</p>
+        <p>Fecha de creación: {{ dispositivo.created_ }}</p>
+        <p>Estado: {{ dispositivo.estado }}</p>
+        <p><a href="{% url 'listar_dispositivos' %}">Volver a la lista de dispositivos</a></p>
+    </body>
+</html>
